@@ -1,0 +1,45 @@
+.header__container {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 93px;
+    color: var(--accent-color);
+
+    &-span {
+        color: var(--black-color);
+    }
+}
+
+.header__list {
+    display: flex;
+    gap: 50px;
+}
+
+.header__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+
+    transition: color var(--animation);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+}
+
+.header__icon {
+    fill: currentColor;
+}

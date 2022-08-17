@@ -1,0 +1,107 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--accent-background-color);
+}
+
+.footer__box {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+    color: var(--accent-color);
+
+    &-span {
+        color: var(--white-color);
+    }
+}
+
+.footer__title {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+
+    margin-bottom: 20px;
+}
+
+.footer-div:last-child {
+    margin-left: 23px;
+}
+
+.footer-form__title {
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+
+    margin-bottom: 20px;
+}
+
+.footer-form__group {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-form__input {
+    display: block;
+    min-width: 358px;
+    min-height: 50px;
+    padding: 15px 16px;
+
+    background-color: transparent;
+    outline: none;
+    color: var(--white-color);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    &::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: calc(20 / 16);
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.footer-form__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 10px 28px;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+}
+
+.footer-form__icon {
+    fill: var(--white-color);
+}
