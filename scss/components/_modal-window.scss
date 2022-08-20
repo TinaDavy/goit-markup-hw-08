@@ -8,6 +8,7 @@
     height: 100%;
 
     background-color: var(--backdrop-color);
+    overflow-x: scroll;
 
     transition: opacity var(--animation), visibility var(--animation);
 
@@ -18,7 +19,7 @@
     
         }
 
-    @media screen and (max-width:479px){
+    @media screen and (max-width:787px){
         padding-top: 94px;
         padding-bottom: 93px;
         padding-left: 15px;
@@ -28,13 +29,9 @@
 }
 
 .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    position: relative;
     padding: 40px;
-
-    width: 450px;
+    max-width: 450px;
     min-height: 581px;
     padding: 40px;
 
@@ -47,6 +44,15 @@
     .backdrop--is-hidden & {
             opacity: 0;
             transform: translate(-50%, -50%) scale(0.3);
+        }
+
+        @media screen and (min-width:768px){
+            width: 450px;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(1);
         }
 
         @media screen and (min-width:1600px) {

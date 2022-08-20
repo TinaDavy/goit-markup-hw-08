@@ -37,7 +37,11 @@
 
 
 .features-mobile__thumb {
-    padding: 25px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
     margin-bottom: 30px;
 
     background-color: var(--background-color);
