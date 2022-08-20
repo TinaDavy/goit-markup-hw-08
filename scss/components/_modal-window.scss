@@ -17,6 +17,14 @@
             pointer-events: none;
     
         }
+
+    @media screen and (max-width:479px){
+        padding-top: 94px;
+        padding-bottom: 93px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
 }
 
 .modal {
@@ -26,7 +34,7 @@
     transform: translate(-50%, -50%) scale(1);
     padding: 40px;
 
-    width: 528px;
+    width: 450px;
     min-height: 581px;
     padding: 40px;
 
@@ -39,6 +47,10 @@
     .backdrop--is-hidden & {
             opacity: 0;
             transform: translate(-50%, -50%) scale(0.3);
+        }
+
+        @media screen and (min-width:1600px) {
+            width: 528px;
         }
 }
 

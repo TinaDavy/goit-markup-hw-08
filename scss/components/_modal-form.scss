@@ -9,6 +9,11 @@
     letter-spacing: 0.03em;
 
     color: var(--title-color);
+
+    @media screen and (min-width:1600px) {
+        line-height: calc(23 / 20);
+        
+    }
 }
 
 .register-form-group {
@@ -123,9 +128,14 @@
 
 .register-form__text {
     font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 12);
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.03em;
+
+    @media screen and (min-width:1600px) {
+        font-size: 14px;
+        line-height: calc(24 / 14);
+    }
 }
 
 .register-form__link {

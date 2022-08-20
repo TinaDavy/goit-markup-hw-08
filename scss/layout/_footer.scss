@@ -6,10 +6,18 @@
 }
 
 .footer__box {
-    display: flex;
-    align-items: baseline;
-    gap: 70px;
+
+    @media screen and (min-width:768px) {
+            
+        }
+    
+    @media screen and (min-width:1600px) {
+        display: flex;
+        align-items: baseline;
+        gap: 70px;
+    }
 }
+
 
 .footer__logo {
     margin-bottom: 20px;
@@ -17,6 +25,22 @@
 
     &-span {
         color: var(--white-color);
+    }
+
+    @media screen and (max-width:767px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.address {
+    @media screen and (max-width:767px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 60px;
     }
 }
 
@@ -33,10 +57,27 @@
     color: var(--white-color);
 
     margin-bottom: 20px;
+
+    @media screen and (max-width:767px) {
+        text-align: center;
+    }
+}
+
+.footer__tablet {
+    @media screen and (min-width:768px) {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        gap: 165px;
+
+        margin-bottom: 60px;
+    }
 }
 
 .footer-div:last-child {
+    @media screen and (min-width:1600px) {
     margin-left: 23px;
+    }
 }
 
 .footer-form__title {
@@ -52,11 +93,17 @@
     color: var(--white-color);
 
     margin-bottom: 20px;
+
+    @media screen and (max-width:1599px) {
+        text-align: center;
+    }
 }
 
 .footer-form__group {
+    @media screen and (min-width:1600px) {
     display: flex;
     gap: 12px;
+    }
 }
 
 .footer-form__input {
@@ -80,6 +127,12 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
+
+    @media screen and (max-width:1599px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
 }
 
 .footer-form__btn {
@@ -100,6 +153,13 @@
     letter-spacing: 0.06em;
 
     cursor: pointer;
+
+    @media screen and (max-width:1599px) {
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+    }
+ 
 }
 
 .footer-form__icon {
