@@ -7,7 +7,7 @@
     text-align: center;
     color: var(--title-color);
 
-    @media screen and (min-width:1600px) {
+    @media screen and (min-width:1200px) {
         margin-bottom: 50px;
     }
 }
@@ -20,7 +20,7 @@
             flex-wrap: wrap;
             }
 
-        @media screen and (min-width:1600px) {
+        @media screen and (min-width:1200px) {
             display: flex;
             gap: 30px;
             flex-wrap: nowrap;
@@ -44,7 +44,7 @@
             max-width: 354px;
         }
 
-    @media screen and (min-width:1600px) {
+    @media screen and (min-width:1200px) {
             max-width: 270px;
         }
 }

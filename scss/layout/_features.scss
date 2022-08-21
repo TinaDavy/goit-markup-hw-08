@@ -1,11 +1,11 @@
 .features {
-    @media screen and (max-width:1599px) {
+    @media screen and (max-width:1199px) {
             display: none;
         }
 }
 
 .features-mobile {
-    @media screen and (min-width:1600px) {
+    @media screen and (min-width:1200px) {
         display: none;
     }
 }
@@ -79,11 +79,11 @@
 
 .features__icon-list {
     
-    @media screen and (max-width:1599px){
+    @media screen and (max-width:1199px){
         display: none;
     }
 
-    @media screen and (min-width:1600px) {
+    @media screen and (min-width:1200px) {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -109,7 +109,7 @@
     display: flex;
     gap: 30px;
 
-    @media screen and (max-width:1599px) {
+    @media screen and (max-width:1199px) {
             display: none;
         }
 }
