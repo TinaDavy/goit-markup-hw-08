@@ -7,7 +7,7 @@
     @media screen and (max-width:767px) {
         flex-wrap: wrap;
         justify-content: flex-start;
-        width: 326px;
+        max-width: 326px;
     }
 
     @media screen and (min-width:768px) {
